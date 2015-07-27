@@ -19,6 +19,7 @@ public class MainActivity extends Activity {
 	public void init()
 	{
 		first_text = (TextView) findViewById(R.id.first_text);
+		first_text.setText("This is Test");
 	}
 
 	@Override
